@@ -142,21 +142,17 @@ Now that your data is ready, you can create dashboards to monitor your business 
 
 **This is Step Create Dashboards and Visualizations part 5 :**
 
-![Screen Shoot](./ss/8-create-model-customer-5.jpg)
+![Screen Shoot](./ss/9-show-dashboard.jpg)
 
 **This is Step Create Dashboards and Visualizations part 6 :**
 
-![Screen Shoot](./ss/9-show-dashboard.jpg)
+![Screen Shoot](./ss/9-show-dashboard-2.jpg)
 
 **This is Step Create Dashboards and Visualizations part 7 :**
 
-![Screen Shoot](./ss/9-show-dashboard-2.jpg)
-
-**This is Step Create Dashboards and Visualizations part 8 :**
-
 ![Screen Shoot](./ss/9-show-dashboard-3.jpg)
 
-**This is Step Create Dashboards and Visualizations part 9 
+**This is Step Create Dashboards and Visualizations part 8 :**
 
 ![Screen Shoot](./ss/9-show-dashboard-4.jpg)
 
