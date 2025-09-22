@@ -32,6 +32,7 @@ In short, data visualization and virtualization are **fundamental needs** for mo
         * Data Models and Virtualization
 
 2.  **Metabase Architecture and Deployment with Docker**
+    * Metabase Deployment with Docker
     * System Architecture
     * Deployment Guide
         * Step 1: Connecting Metabase to Your Database
@@ -49,7 +50,7 @@ Metabase is an **open-source Business Intelligence (BI) tool** designed to trans
 
 Metabase supports various databases like MySQL, PostgreSQL, SQL Server, Mongodb, Spark SQL, Presto and more. It can be deployed in different environments, including local servers, the cloud, or with Docker, making it flexible and easy to implement.
 
-## 2. Benefits of Metabase for Data Analysis
+## 2. Metabase Architecture and Deployment with Docker
 
 Metabase is more than just a visualization tool; it's a comprehensive platform for data exploration. Here are some of its key benefits:
 
@@ -59,19 +60,18 @@ Metabase is more than just a visualization tool; it's a comprehensive platform f
 * **Data Models and Virtualization**: This feature helps simplify complex database structures. You can create **"Models"** that act as an abstraction layer over your database tables, making the data easier to understand for all users.
 
 
-# Metabase Deployment with Docker
+### 2.1 Metabase Deployment with Docker
 
 Using Docker is the most efficient and recommended way to run Metabase. Here is a step-by-step guide to deploy it and connect to your database.
 
 ![Screen Shoot](./ss/0-docker-runing.jpg)
-
 
 for deploy just run docker compose for metabase 
 
 ```docker-compose up -d```
 
 
-### 3.1. System Architecture
+### 2.2. System Architecture
 
 A typical Metabase architecture uses two connected Docker containers:
 1.  **Metabase Application Container (`metabase_app`)**: This container runs the Metabase web application.
@@ -79,7 +79,7 @@ A typical Metabase architecture uses two connected Docker containers:
 You can see both containers running smoothly.
 
 
-### 3.2. Deployment Guide
+### 2.3. Deployment Guide
 
 * **Step 1: Connect to Your Database**
     After Metabase is running, the next step is to connect it to your database.
@@ -87,20 +87,21 @@ You can see both containers running smoothly.
     * Fill in your database connection details and click **"Save"**.
     * If the connection is successful, you will see a **"Connected"** status.
 
-![Screen Shoot](./ss/1-create-conection-virtualasi-data.jpg)
+   **This is Step Conection database part 1 :**
+  
+   ![Screen Shoot](./ss/1-create-conection-virtualasi-data.jpg)
+   
+    **This is Step Conection database part 2 :**
+    ![Screen Shoot](./ss/2-create-conection-virtualasi-data.jpg)
 
+     **This is Step Conection database part 3 :**
+     ![Screen Shoot](./ss/3-create-conection-virtualasi-data.jpg)
 
-![Screen Shoot](./ss/2-create-conection-virtualasi-data.jpg)
+      **This is Step Conection database part 4 :**
+      ![Screen Shoot](./ss/4-create-conection-virtualasi-data.jpg)
 
-
-![Screen Shoot](./ss/3-create-conection-virtualasi-data.jpg)
-
-
-![Screen Shoot](./ss/4-create-conection-virtualasi-data.jpg)
-
-
-![Screen Shoot](./ss/5-create-conection-virtualasi-data.jpg)
-
+       **This is Step Conection database part 5 :**
+      ![Screen Shoot](./ss/5-create-conection-virtualasi-data.jpg)
 
 * **Step 2: Explore Your Database Structure**
     Once connected, you can start exploring your data.
