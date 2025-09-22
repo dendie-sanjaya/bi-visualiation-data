@@ -1,3 +1,27 @@
+# Metabase: Your BI Solution for Data Management and AI Readiness
+
+In today's digital world, businesses create a huge amount of data. But raw data is often useless unless it's properly organized and presented. This is where **data visualization** and **data virtualization** become essential.
+
+![Screen Shoot](./design/architecture.jpg)
+
+#### Why Data Visualization is Important
+
+Data visualization turns raw data into simple graphics like charts and graphs. Its main goal is to help people understand and find hidden patterns and trends. Our brains process visuals much faster than text, so data visualization helps teams:
+
+* **Quickly identify trends** and behavioral patterns.
+* **Tell a data story** to people who aren't technical.
+* **Speed up analysis** and decision-making.
+
+#### Why Data Virtualization is Important
+
+Company data is often scattered across many places, like local databases and cloud services. **Data virtualization** creates a single layer that connects all this data without having to copy it. This provides several benefits:
+
+* **Unified data access** from one single location.
+* **Flexibility and efficiency** by avoiding data duplication.
+* **Less reliance on IT teams** for complex data integration.
+
+In short, data visualization and virtualization are **fundamental needs** for modern organizations. They work together to turn scattered data into a strategic resource that drives growth and innovation.
+
 # Table of Contents
 1.  **Getting to Know Metabase**
     * What is Metabase?
@@ -20,7 +44,6 @@
 
 ## 1. What is Metabase?
 
-![Screen Shoot](./ss/architecture.jpg)
 
 Metabase is an **open-source Business Intelligence (BI) tool** designed to transform raw data into valuable business insights. It's built for ease of use, allowing anyone in an organization, from analysts to managers, to ask questions about data and see the answers in a clear, visual format. Metabase acts as a **bridge between complex databases and business teams**, enabling data-driven decisions in real time.
 
