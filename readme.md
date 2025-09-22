@@ -66,7 +66,7 @@ Using Docker is the most efficient and recommended way to run Metabase. Here is 
 
 ![Screen Shoot](./ss/0-docker-runing.jpg)
 
-for deploy just run docker compose for metabase 
+for deploy just run docker compose for metabase, file deployment was provide in this repostiory is **docker-compose.yaml** 
 
 ```docker-compose up -d```
 
@@ -78,30 +78,35 @@ A typical Metabase architecture uses two connected Docker containers:
 2.  **Metabase Database Container (`metabase_postgres`)**: This container stores Metabase's internal metadata, like dashboards and user settings.
 You can see both containers running smoothly.
 
-
 ### 2.3. Deployment Guide
 
-* **Step 1: Connect to Your Database**
-    After Metabase is running, the next step is to connect it to your database.
-    * On the Metabase homepage, click **"Add data"**.      
-    * Fill in your database connection details and click **"Save"**.
-    * If the connection is successful, you will see a **"Connected"** status.
+**2.3.1 Step 1: Connect to Your Database**
 
-   **This is Step Conection database part 1 :**
-  
-   ![Screen Shoot](./ss/1-create-conection-virtualasi-data.jpg)
+After Metabase is running, the next step is to connect it to your database.
+* On the Metabase homepage, click **Add data**.      
+* Fill in your database connection details and click **Save**.
+* If the connection is successful, you will see a **Connected** status.
+
+**This is Step Conection database part 1 :**
+
+![Screen Shoot](./ss/1-create-conection-virtualasi-data.jpg)
    
-    **This is Step Conection database part 2 :**
-    ![Screen Shoot](./ss/2-create-conection-virtualasi-data.jpg)
+**This is Step Conection database part 2 :**
 
-     **This is Step Conection database part 3 :**
-     ![Screen Shoot](./ss/3-create-conection-virtualasi-data.jpg)
+![Screen Shoot](./ss/2-create-conection-virtualasi-data.jpg)
 
-      **This is Step Conection database part 4 :**
-      ![Screen Shoot](./ss/4-create-conection-virtualasi-data.jpg)
+**This is Step Conection database part 3 :**
+     
+![Screen Shoot](./ss/3-create-conection-virtualasi-data.jpg)
 
-       **This is Step Conection database part 5 :**
-      ![Screen Shoot](./ss/5-create-conection-virtualasi-data.jpg)
+**This is Step Conection database part 4 :**
+     
+![Screen Shoot](./ss/4-create-conection-virtualasi-data.jpg)
+
+**This is Step Conection database part 5 :**
+      
+![Screen Shoot](./ss/5-create-conection-virtualasi-data.jpg)
+
 
 * **Step 2: Explore Your Database Structure**
     Once connected, you can start exploring your data.
