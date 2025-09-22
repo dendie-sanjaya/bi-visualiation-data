@@ -71,7 +71,6 @@ for deploy just run docker compose for metabase, file deployment was provide in 
 
 ```docker-compose up -d```
 
-
 ### 2.2. System Architecture
 
 A typical Metabase architecture uses two connected Docker containers:
@@ -80,6 +79,8 @@ A typical Metabase architecture uses two connected Docker containers:
 You can see both containers running smoothly.
 
 ### 2.3 List Metabase Database Connection Support
+
+![Screen Shoot](./ss/database-connection.jpg)
 
 Metabase supports a wide range of databases, both relational and NoSQL, to make data analysis and connection simple. Here is a list of the officially supported database types:
 
