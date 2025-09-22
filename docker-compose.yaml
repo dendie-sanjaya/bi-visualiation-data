@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  metabase_db:
+    image: postgres:13
+    restart: always
+    container_name: metabase_postgres
+    ports:
+      - "5432:5432"  # Tambahkan baris ini
+    volumes:
+      - ./metabase_data_db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: metabase_user
+      POSTGRES_PASSWORD: metabase_password
+      POSTGRES_DB: metabase_app_db
+
+  metabase:
+    image: metabase/metabase:latest
+    restart: always
+    container_name: metabase_app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./metabase_data_app:/metabase-data
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase_app_db
+      MB_DB_PORT: 5432
+      MB_DB_USER: metabase_user
+      MB_DB_PASS: metabase_password
+      MB_DB_HOST: metabase_db
+    depends_on:
+      - metabase_db
