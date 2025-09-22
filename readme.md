@@ -109,6 +109,7 @@ After Metabase is running, the next step is to connect it to your database.
 
 
 **2.3.2 Step 2: Explore Your Database Structure**
+
 Once connected, you can start exploring your data.
 * On the **"Databases"** page, you'll see your newly added database.       
 * Click on it to see a list of all your tables.
@@ -117,34 +118,50 @@ Once connected, you can start exploring your data.
 ![Screen Shoot](./ss/6-list-table.jpg)
 
 **2.3.3 Step 3: Create Dashboards and Visualizations**
+
 Now that your data is ready, you can create dashboards to monitor your business metrics.
 * Click **"+ New"** in the top-right corner and select **"Dashboard"**.       
 * Give your dashboard a name, like **"My Dashboard Sales"**.       
 * You can now add questions or visualizations you have already created to this dashboard.
         
 **This is Step Create Dashboards and Visualizations part 1 :**
+
 ![Screen Shoot](./ss/7-Create-Dashboard.jpg)
 
 **This is Step Create Dashboards and Visualizations part 2 :**
+
 ![Screen Shoot](./ss/7-Create-Dashboard-2.jpg)
 
 **This is Step Create Dashboards and Visualizations part 3 :**
+
 ![Screen Shoot](./ss/8-create-model-customer-3.jpg)
 
 **This is Step Create Dashboards and Visualizations part 4 :**
+
 ![Screen Shoot](./ss/8-create-model-customer-4.jpg)
 
 **This is Step Create Dashboards and Visualizations part 5 :**
-![Screen Shoot](./ss/8-create-model-customer.jpg)
+
+![Screen Shoot](./ss/8-create-model-customer-5.jpg)
 
 **This is Step Create Dashboards and Visualizations part 6 :**
-![Screen Shoot](./ss/8-create-model-customer.jpg)
+
+![Screen Shoot](./ss/9-show-dashboard.jpg)
 
 **This is Step Create Dashboards and Visualizations part 7 :**
-![Screen Shoot](./ss/8-create-model-customer.jpg)
+
+![Screen Shoot](./ss/9-show-dashboard-2.jpg)
+
+**This is Step Create Dashboards and Visualizations part 8 :**
+
+![Screen Shoot](./ss/9-show-dashboard-3.jpg)
+
+**This is Step Create Dashboards and Visualizations part 9 
+
+![Screen Shoot](./ss/9-show-dashboard-4.jpg)
 
 
-# 3.1 Exporting Data for AI Training
+## 3.1 Exporting Data for AI Training
 
 One of Metabase's great benefits is its ability to **easily export data**. The visualizations you create in Metabase can serve as the basis for more advanced data analysis, including training Machine Learning or AI models.
 
