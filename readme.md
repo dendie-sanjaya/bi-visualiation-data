@@ -34,6 +34,7 @@ In short, data visualization and virtualization are **fundamental needs** for mo
 2.  **Metabase Architecture and Deployment with Docker**
     * Metabase Deployment with Docker
     * System Architecture
+    * List Support Connection Database 
     * Deployment Guide
         * Step 1: Connecting Metabase to Your Database
         * Step 2: Exploring Your Database Structure
@@ -78,9 +79,39 @@ A typical Metabase architecture uses two connected Docker containers:
 2.  **Metabase Database Container (`metabase_postgres`)**: This container stores Metabase's internal metadata, like dashboards and user settings.
 You can see both containers running smoothly.
 
-### 2.3. Deployment Guide
+### 2.3 List Metabase Database Connection Support
 
-**2.3.1 Step 1: Connect to Your Database**
+Metabase supports a wide range of databases, both relational and NoSQL, to make data analysis and connection simple. Here is a list of the officially supported database types:
+
+* **Relational Databases**:
+    * PostgreSQL
+    * MySQL
+    * MariaDB
+    * SQL Server
+    * Oracle
+    * SQLite
+
+* **Data Warehouses**:
+    * Amazon Redshift
+    * Google BigQuery
+    * Snowflake
+    * Vertica
+    * Presto
+    * SparkSQL
+
+* **NoSQL & Other Data Sources**:
+    * MongoDB
+    * Druid
+    * Amazon Athena
+    * Google Sheets
+    * CSV files (via upload)
+    * Databricks
+
+With this broad support, Metabase can easily integrate into a wide variety of existing data infrastructures within any organization.
+
+### 2.4. Deployment Guide
+
+**2.4.1 Step 1: Connect to Your Database**
 
 After Metabase is running, the next step is to connect it to your database.
 * On the Metabase homepage, click **Add data**.      
@@ -108,7 +139,7 @@ After Metabase is running, the next step is to connect it to your database.
 ![Screen Shoot](./ss/5-create-conection-virtualasi-data.jpg)
 
 
-**2.3.2 Step 2: Explore Your Database Structure**
+**2.4.2 Step 2: Explore Your Database Structure**
 
 Once connected, you can start exploring your data.
 * On the **"Databases"** page, you'll see your newly added database.       
@@ -117,7 +148,7 @@ Once connected, you can start exploring your data.
         
 ![Screen Shoot](./ss/6-list-table.jpg)
 
-**2.3.3 Step 3: Create Dashboards and Visualizations**
+**2.4.3 Step 3: Create Dashboards and Visualizations**
 
 Now that your data is ready, you can create dashboards to monitor your business metrics.
 * Click **"+ New"** in the top-right corner and select **"Dashboard"**.       
